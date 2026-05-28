@@ -72,6 +72,21 @@ More detail:
 
 ---
 
+### PTFE Tube Between Extruder and Hotend
+
+Status: Installed and working.
+
+Source link:
+https://www.amazon.com/dp/B0F1TVH4TW?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+
+Notes:
+
+- Used to connect the direct-drive extruder output to the hotend input.
+- Current setup is working.
+- Re-check tube length/fitment after final hotend, heatbreak, and cooling hardware are installed.
+
+---
+
 ### Ductinator Cooling Duct
 
 Status: Installed / in use for the current toolhead plan.
@@ -90,6 +105,7 @@ y_offset: -28
 ```
 
 - These should be left alone unless the physical probe location changes.
+- Final part-cooling performance should be tested after the two 24V duct fans are installed.
 
 ---
 
@@ -186,11 +202,33 @@ Notes:
 
 ---
 
+### Miscellaneous Hardware Assortments
+
+Status: On hand / used as needed.
+
+Source links:
+
+- https://www.amazon.com/dp/B0D14BC8QS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+- https://www.amazon.com/dp/B0D1KQCBMT?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1
+- https://www.amazon.com/dp/B0CTMP1BFM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1
+- https://www.amazon.com/dp/B0CTMBW8H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1
+- https://www.amazon.com/dp/B07VZTSHB4?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_15
+
+Notes:
+
+- Miscellaneous fasteners/hardware are used as needed during the build.
+- Track specific usage later only if a part becomes important for fitment, serviceability, or repeatability.
+
+---
+
 ## Power / Electronics Setup
 
 ### Raspberry Pi Printer-Powered Setup
 
-Status: Installed.
+Status: Installed and working.
+
+Buck converter source link:
+https://www.amazon.com/dp/B08NV3JCBC?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 Power path:
 
@@ -208,6 +246,7 @@ Notes:
 
 - The Pi is powered from the printer's 24V PSU through a buck converter.
 - Power is fed into the Pi through the normal micro USB power input so the Pi's built-in fuse/protection path is retained.
+- Current buck converter setup is installed and working.
 - Future mainboard power-switching plans should keep the Pi powered independently of the Creality mainboard.
 
 ---
@@ -359,11 +398,29 @@ Status: Pending install.
 
 https://www.aliexpress.us/item/3256809178438391.html?spm=a2g0o.order_list.order_list_main.29.b0e318020SxXM1
 
-### Dual Blower Fans for Duct Setup
+### Dual 24V Part-Cooling Fans for Ductinator
 
-Status: Pending install / planned with duct setup.
+Status: Ordered / not installed yet.
 
-https://www.aliexpress.us/item/3256808842298737.html?spm=a2g0o.order_list.order_list_main.35.3c1818020NUC69&gatewayAdapt=glo2usa
+https://www.aliexpress.us/item/3256808842298737.html?spm=a2g0o.order_list.order_list_main.35.2f7d18026auBdG&gatewayAdapt=glo2usa
+
+Notes:
+
+- Two fans will be used on the Ductinator for part cooling.
+- User ordered the 24V variant.
+- Final fan config and cooling tests should wait until the fans arrive and are installed.
+
+### Stepper Motor Heatsinks
+
+Status: Ordered / not installed yet.
+
+https://www.aliexpress.us/item/2255800537553298.html?spm=a2g0o.order_list.order_list_main.47.2f7d18026auBdG&gatewayAdapt=glo2usa
+
+Notes:
+
+- Intended for stepper motor cooling/thermal management.
+- Not installed yet.
+- Revisit after installation if motor temperatures remain a concern.
 
 ### Silicone Bed Mounts / Spring Replacements
 
