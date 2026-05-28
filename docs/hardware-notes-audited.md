@@ -79,7 +79,7 @@ Do not change the BLTouch wiring unless a real fault is confirmed.
 
 Status: installed physically; final firmware behavior still needs validation.
 
-The earlier Gemini notes claimed the Creality 4.2.2 `DET` port uses:
+Earlier AI-assisted notes claimed the Creality 4.2.2 `DET` port uses:
 
 ```ini
 switch_pin: PA4
@@ -113,7 +113,7 @@ Because the runout sensor is mounted at the top of the printer, final Z-height c
 
 Status: conservative documentation only.
 
-A printed mainboard enclosure may be fine mechanically, but the earlier Gemini grounding advice should not be treated as authoritative.
+A printed mainboard enclosure may be fine mechanically, but earlier AI-assisted grounding advice should not be treated as authoritative.
 
 Project rule:
 
