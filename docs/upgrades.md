@@ -165,22 +165,27 @@ Notes:
 
 ---
 
-### Miscellaneous Hardware Assortments
+### Miscellaneous / Build Support Parts
 
-Status: On hand / used as needed.
+Status: On hand / used as needed unless otherwise noted.
 
 Source links:
 
-- https://www.amazon.com/dp/B0D14BC8QS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
-- https://www.amazon.com/dp/B0D1KQCBMT?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1
-- https://www.amazon.com/dp/B0CTMP1BFM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1
-- https://www.amazon.com/dp/B0CTMBW8H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1
-- https://www.amazon.com/dp/B07VZTSHB4?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_15
+- Thermal grease: https://www.aliexpress.us/item/3256808914113967.html?spm=a2g0o.order_list.order_list_main.5.2f7d18026auBdG&gatewayAdapt=glo2usa
+- Fan extension cables: https://www.aliexpress.us/item/3256806551577827.html?spm=a2g0o.order_list.order_list_main.41.2f7d18026auBdG&gatewayAdapt=glo2usa
+- Fan splitter: https://www.aliexpress.us/item/3256805952445598.html?spm=a2g0o.order_list.order_list_main.53.2f7d18026auBdG&gatewayAdapt=glo2usa
+- Stepper motor heatsinks: https://www.aliexpress.us/item/2255800537553298.html?spm=a2g0o.order_list.order_list_main.47.2f7d18026auBdG&gatewayAdapt=glo2usa
+- Miscellaneous hardware assortment: https://www.amazon.com/dp/B0D14BC8QS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+- Miscellaneous hardware assortment: https://www.amazon.com/dp/B0D1KQCBMT?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1
+- Miscellaneous hardware assortment: https://www.amazon.com/dp/B0CTMP1BFM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1
+- Miscellaneous hardware assortment: https://www.amazon.com/dp/B0CTMBW8H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1
+- Miscellaneous hardware assortment: https://www.amazon.com/dp/B07VZTSHB4?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_15
 
 Notes:
 
-- Miscellaneous fasteners/hardware are used as needed during the build.
-- Track specific usage later only if a part becomes important for fitment, serviceability, or repeatability.
+- Miscellaneous fasteners, wiring helpers, thermal materials, and support hardware are used as needed during the build.
+- Stepper motor heatsinks are ordered / not installed yet.
+- Track specific usage later only if a part becomes important for fitment, serviceability, thermal performance, or repeatability.
 
 ---
 
@@ -258,18 +263,3 @@ Notes:
 - Two fans will be used on the Ductinator for part cooling.
 - User ordered the 24V variant.
 - Final fan config and cooling tests should wait until the fans arrive and are installed.
-
----
-
-### Stepper Motor Heatsinks
-
-Status: Ordered / not installed yet.
-
-Source link:
-https://www.aliexpress.us/item/2255800537553298.html?spm=a2g0o.order_list.order_list_main.47.2f7d18026auBdG&gatewayAdapt=glo2usa
-
-Notes:
-
-- Intended for stepper motor cooling/thermal management.
-- Not installed yet.
-- Revisit after installation if motor temperatures remain a concern.
