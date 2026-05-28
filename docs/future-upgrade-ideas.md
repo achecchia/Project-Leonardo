@@ -92,6 +92,44 @@ Revisit after:
 
 ---
 
+### Linear Rails
+
+Status: Future possible motion upgrade.
+
+Reason:
+Linear rails may improve motion consistency, rigidity, and long-term serviceability if the stock V-wheel motion system becomes a limitation or maintenance annoyance.
+
+Possible areas to consider later:
+
+- X-axis rail conversion
+- Y-axis rail conversion
+- Full motion-system refresh if the printer is already being torn down for a larger rebuild
+
+Current decision:
+Do not install during the active hotend/cooling hardware phase. Revisit only after the printer is tuned and reliable enough to know whether the current motion system is actually limiting print quality or maintenance.
+
+---
+
+### Carbon Fiber Bed
+
+Status: Future possible bedslinger weight-reduction upgrade.
+
+Reason:
+A lighter/stiffer bed assembly could potentially reduce moving mass on the Y axis and help with motion performance, ringing, and acceleration limits.
+
+Things to evaluate before doing it:
+
+- Real weight savings compared with the current bed setup
+- Flatness and thermal behavior
+- Heater compatibility
+- Mounting compatibility with the Ender 3 bed carriage
+- Whether it affects bed mesh stability or first-layer consistency
+
+Current decision:
+Track as a future idea only. Finish the current bed-stability plan first, including silicone bed mounts and a fresh mesh, before deciding whether a carbon fiber bed is worth pursuing.
+
+---
+
 ### WLED Printer Lighting
 
 Status: Good future quality-of-life upgrade.
