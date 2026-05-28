@@ -25,8 +25,7 @@ Current phase:
 ## Quick Links
 
 - [Upgrade punch list](docs/punch-list.md)
-- [Installed parts inventory](docs/installed-parts.md)
-- [Completed / installed upgrades](docs/completed-upgrades.md)
+- [Completed upgrades](docs/completed-upgrades.md)
 - [Config and workflow notes](docs/config-and-workflow-notes.md)
 - [Audited hardware notes](docs/hardware-notes-audited.md)
 - [Project history](docs/project-history.md)
@@ -66,7 +65,7 @@ Already installed or configured:
 - OctoEverywhere for remote status/notifications/failure monitoring
 - UniFi VPN for secure full remote admin access
 
-See [Installed Parts Inventory](docs/installed-parts.md) and [Completed / Installed Upgrades](docs/completed-upgrades.md) for links and detailed notes.
+See [Completed Upgrades](docs/completed-upgrades.md) for installed part links, completed upgrade notes, and current baseline details.
 
 ---
 
