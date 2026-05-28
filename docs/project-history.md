@@ -193,7 +193,7 @@ The bad wiring behavior was a thump/noise without smooth movement, indicating a 
 Detailed notes are in:
 
 ```text
-docs/hardware-notes-audited.md
+docs/hardware-notes.md
 ```
 
 ---
