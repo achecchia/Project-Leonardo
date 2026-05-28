@@ -25,7 +25,7 @@ Notes:
 
 ### Pancake Extruder Stepper Motor
 
-Status: Installed
+Status: Installed and wired correctly
 
 Resource link:
 https://www.amazon.com/dp/B0FHHXHHRW?ref=ppx_yo2ov_dt_b_fed_asin_title
@@ -33,9 +33,29 @@ https://www.amazon.com/dp/B0FHHXHHRW?ref=ppx_yo2ov_dt_b_fed_asin_title
 Notes:
 
 - Installed as part of the direct-drive conversion.
+- The pancake stepper required repinning/rewiring to work correctly with the Creality 4.2.2 E-stepper port.
+- Motor coil pairs are:
+
+```text
+Phase A: Black + Green
+Phase B: Red + Blue
+```
+
+- Final working connector order, left to right, is:
+
+```text
+Black, Green, Red, Blue
+```
+
+- The incorrect wire order caused a thump/noise without smooth movement, which indicated a phase mismatch.
 - Motor current is controlled by the physical Vref potentiometer on the Creality 4.2.2 board.
 - No Klipper UART/TMC driver current control is currently active.
+- Do not add `[tmc2209 extruder]` or software `run_current` settings unless the mainboard is upgraded to one with UART-controlled drivers.
 - Motor temperature and torque should be evaluated after the final hotend is installed and extrusion testing begins.
+
+More detail:
+
+- See [`docs/hardware-notes.md`](hardware-notes.md)
 
 ---
 
@@ -113,6 +133,10 @@ stow_on_each_sample: True
 probe_with_touch_mode: False
 pin_up_touch_mode_reports_triggered: False
 ```
+
+More detail:
+
+- See [`docs/hardware-notes.md`](hardware-notes.md)
 
 ---
 
@@ -242,6 +266,7 @@ Notes:
 - README is now being used as the project overview.
 - `docs/punch-list.md` tracks the staged upgrade process.
 - `docs/future-upgrade-ideas.md` tracks optional future ideas.
+- `docs/hardware-notes.md` tracks hardware-specific wiring and troubleshooting notes.
 - This file tracks completed/installed upgrades.
 
 ---
