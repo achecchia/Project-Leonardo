@@ -68,7 +68,7 @@ Black, Green, Red, Blue
 
 More detail:
 
-- See [`hardware-notes-audited.md`](hardware-notes-audited.md)
+- See [`hardware-notes.md`](hardware-notes.md)
 
 ---
 
@@ -132,7 +132,7 @@ Notes:
 
 More detail:
 
-- See [`hardware-notes-audited.md`](hardware-notes-audited.md)
+- See [`hardware-notes.md`](hardware-notes.md)
 
 ---
 
@@ -165,7 +165,7 @@ pin_up_touch_mode_reports_triggered: False
 
 More detail:
 
-- See [`hardware-notes-audited.md`](hardware-notes-audited.md)
+- See [`hardware-notes.md`](hardware-notes.md)
 
 ---
 
@@ -289,14 +289,14 @@ Notes:
 Status: Active.
 
 Repository link:
-https://github.com/achecchia/Ender-3-Klipper-Upgrade-v2
+https://github.com/achecchia/Project-Leonardo
 
 Notes:
 
 - README is the project overview.
 - `docs/punch-list.md` tracks the staged upgrade process.
 - `docs/future-upgrade-ideas.md` tracks optional future ideas.
-- `docs/hardware-notes-audited.md` tracks hardware-specific wiring and troubleshooting notes.
+- `docs/hardware-notes.md` tracks hardware-specific wiring and troubleshooting notes.
 - `docs/config-and-workflow-notes.md` tracks workflow, config, backup, and remote-access notes.
 - This file tracks completed/installed upgrades.
 
