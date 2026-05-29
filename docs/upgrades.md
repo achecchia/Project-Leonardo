@@ -150,6 +150,52 @@ Notes:
 
 ---
 
+### Printed Mainboard Case / Airflow Motherboard Case
+
+Status: Printed and installed.
+
+Source link:
+https://www.printables.com/model/1119480-ender-3pro-v2-airflow-motherboard-case/files
+
+Notes:
+
+- Replaces or modifies the mainboard enclosure area.
+- Intended to improve airflow/serviceability around the motherboard.
+- Because this is around the electronics bay, preserve safe wire routing, strain relief, fan airflow direction, and electrical clearances.
+- Configuration/safety notes for the electronics bay are tracked in [`configuration.md`](configuration.md).
+
+---
+
+### Z Motor Spacer
+
+Status: Printed and installed.
+
+Source link:
+https://www.thingiverse.com/thing:2925230
+
+Notes:
+
+- Installed at the Z motor to improve Z-axis alignment/spacing.
+- Re-check Z screw alignment, coupler behavior, and binding after any future Z-axis work.
+- This should be considered part of the current mechanical baseline before final motion tuning.
+
+---
+
+### Raspberry Pi 60mm Fan Cover / Guard
+
+Status: Printed and installed.
+
+Source link:
+https://www.printables.com/model/271390-60mm-fan-guard
+
+Notes:
+
+- Installed as a fan guard/cover for the Raspberry Pi cooling fan setup.
+- Helps protect the fan while preserving airflow.
+- Watch for Pi undervoltage, thermal throttling, or airflow restriction if the Pi enclosure/cooling setup changes later.
+
+---
+
 ### Buck Converter / Raspberry Pi Printer-Powered Setup
 
 Status: Installed and working.
@@ -178,7 +224,7 @@ Source links:
 - Miscellaneous hardware assortment: https://www.amazon.com/dp/B0D14BC8QS?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 - Miscellaneous hardware assortment: https://www.amazon.com/dp/B0D1KQCBMT?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1
 - Miscellaneous hardware assortment: https://www.amazon.com/dp/B0CTMP1BFM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1
-- Miscellaneous hardware assortment: https://www.amazon.com/dp/B0CTMBW8H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6&th=1
+- Miscellaneous hardware assortment: https://www.amazon.com/dp/B0CTMBW8H6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6
 - Miscellaneous hardware assortment: https://www.amazon.com/dp/B07VZTSHB4?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_15
 
 Notes:
