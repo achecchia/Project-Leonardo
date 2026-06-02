@@ -269,15 +269,17 @@ Notes:
 
 ### Mellow Gold DLC Hardened Steel / Copper Bimetal GHC V6 Nozzle
 
-Status: Pending install.
+Status: Received / on hand, not installed yet.
 
 Source link:
 https://www.aliexpress.us/item/3256809178438391.html?spm=a2g0o.order_list.order_list_main.29.b0e318020SxXM1
 
 Notes:
 
+- Received in the mail.
 - Install as part of the hotend/nozzle upgrade phase.
 - Confirm nozzle fitment and probe clearance before printing.
+- Do not final-tune flow/retraction/pressure advance until this nozzle is installed and tested.
 
 ---
 
@@ -299,13 +301,14 @@ Notes:
 
 ### Dual 24V Part-Cooling Fans for Ductinator
 
-Status: Ordered / not installed yet.
+Status: Ordered / not received yet.
 
 Source link:
 https://www.aliexpress.us/item/3256808842298737.html?spm=a2g0o.order_list.order_list_main.35.2f7d18026auBdG&gatewayAdapt=glo2usa
 
 Notes:
 
+- Still waiting on these fans.
 - Two fans will be used on the Ductinator for part cooling.
 - User ordered the 24V variant.
 - Final fan config and cooling tests should wait until the fans arrive and are installed.
@@ -314,7 +317,7 @@ Notes:
 
 ### Orion Fans OD4010-24HSS Hotend Fan Replacement
 
-Status: Ordered / not installed yet.
+Status: Received / on hand, not installed yet.
 
 Source/source details:
 
@@ -329,7 +332,8 @@ Source/source details:
 
 Notes:
 
+- Received in the mail.
 - Intended to replace the loud stock hotend fan.
 - Verify fitment, polarity, airflow direction, and connector/wiring before powering on.
 - Confirm it is wired to the hotend fan circuit, not the part-cooling fan output.
-- Mark as installed after the fan arrives and is physically fitted/tested.
+- Mark as installed after it is physically fitted/tested.
