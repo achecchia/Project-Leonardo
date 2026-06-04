@@ -94,16 +94,25 @@ Track this as a required commissioning step, not a hardware upgrade.
 
 ### Speed Benchmarks After Hardware Is Stable
 
-Status: Later.
+Status: Later / fun experiment only.
 
 Reason:
 
-The video compared stock and upgraded print times. Leonardo E3 should eventually get its own baseline and tuned benchmark profile, but only after hardware is stable.
+The video compared stock and upgraded print times. Leonardo E3 can eventually get its own baseline and tuned benchmark profile, but speed is not the mission for this printer.
+
+Important distinction:
+
+```text
+Fast Benchy is not the goal.
+Reliable, predictable, well-documented printing is the goal.
+```
+
+A fast Benchy attempt can be a fun side quest after the machine is mechanically stable, thermally stable, and tuned. It should not drive hardware decisions or compromise reliability.
 
 Possible benchmark set:
 
 - Benchy quality profile
-- Benchy speed profile
+- Benchy speed/fun profile
 - Practical functional part
 - Retraction/stringing test
 - Bridging/overhang test
@@ -111,7 +120,7 @@ Possible benchmark set:
 
 Current decision:
 
-Do not chase speed yet. First make the machine reliable, predictable, and documented.
+Do not chase speed yet. First make the machine reliable, predictable, and documented. Revisit fast Benchy only as a just-for-fun experiment after commissioning is complete.
 
 ---
 
