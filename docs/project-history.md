@@ -6,6 +6,39 @@ It is not a step-by-step setup guide. It is a record of what happened, what was 
 
 ---
 
+## Project Inspiration - $100 Ender 3 Upgrade Video
+
+Status: Reference / inspiration source.
+
+Primary inspiration video:
+
+```text
+How much can you UPGRADE an Ender 3 with $100?
+https://www.youtube.com/watch?v=eruh2EOTG8U&t=1194s
+```
+
+Why it matters:
+
+- This video helped inspire pulling the Ender 3 back out and treating it as a rebuild / modernization project instead of letting it sit unused.
+- The core idea from the video is that the stock Ender 3 motion system can still be useful when paired with better extrusion, cooling, Klipper, and careful tuning.
+- The video reinforces the Project Leonardo direction: improve the machine intentionally without assuming every possible upgrade is necessary.
+
+Ideas from the video that already align with Leonardo E3:
+
+- Klipper as the control platform
+- Input shaper as a major performance multiplier
+- Direct drive conversion with a BMG-style extruder and pancake stepper
+- High-flow hotend direction using a Trianglelab CHC Pro-style heater
+- Bi-metal heatbreak to reduce heat creep risk
+- BLTouch / bed probing for bed inconsistency compensation
+- Stronger part cooling as an important upgrade path
+- Using the stock motion system before jumping to rails or major motion conversions
+- Treating tuning as the real final step after hardware is stable
+
+Ideas to evaluate later are tracked in [`future-ideas.md`](future-ideas.md).
+
+---
+
 ## 2026-05 - Fresh SD Card / Klipper Resurrection
 
 Status: Completed.
