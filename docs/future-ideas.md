@@ -8,6 +8,113 @@ The current priority is to finish the hotend, cooling, and bed-stability upgrade
 
 ---
 
+## Video-Inspired Ideas to Evaluate
+
+These ideas came from the project inspiration video, **"How much can you UPGRADE an Ender 3 with $100?"** They should be treated as evaluation items, not automatic upgrades.
+
+### G10 / Garolite Build Surface
+
+Status: Maybe later; not needed right now.
+
+Reason:
+
+The video used a G10 sheet as a budget build-surface improvement. Leonardo E3 already has a magnetic PEI build plate installed, so this is not an immediate need.
+
+Potential reason to revisit:
+
+- If PEI adhesion/release becomes inconsistent
+- If specific materials benefit from G10
+- If a cheap spare surface is wanted for testing
+
+Current decision:
+
+Keep the PEI setup for now. Do not change the build surface until the current hardware phase is complete and first-layer behavior is evaluated after silicone bed mounts and fresh mesh.
+
+---
+
+### More Aggressive Part-Cooling Validation
+
+Status: Already directionally aligned; test after installed fans are finalized.
+
+Reason:
+
+The video strongly emphasized part cooling as one of the highest-value Ender 3 upgrades. Leonardo E3 already has the Ductinator duct installed and dual 24V part-cooling fans planned/on hand.
+
+Things to evaluate after fan install:
+
+- Bridging performance
+- Overhang performance
+- Fan noise
+- Whether full fan speed is necessary
+- Whether minimum fan / maximum fan limits should be set in slicer
+- Whether fan wiring is clean and serviceable
+
+Current decision:
+
+Do not buy different fans yet. Finish installing and testing the selected Ductinator fan setup first.
+
+---
+
+### CHC Hotend / High-Flow Tuning Targets
+
+Status: Already part of active path.
+
+Reason:
+
+The video reinforces that extrusion flow is one of the main stock Ender 3 bottlenecks. Leonardo E3 already has the Trianglelab CHC Pro hotend, bi-metal heatbreak, and upgraded nozzle path planned.
+
+Future test after installation:
+
+- PID tune
+- Extrusion sanity check
+- Retraction tune
+- Pressure advance tune
+- Max volumetric flow characterization
+- Realistic speed/acceleration profile in OrcaSlicer
+
+Current decision:
+
+No new purchase needed. Finish the already planned hotend path and tune it properly.
+
+---
+
+### Pressure Advance / Retraction Tuning Pass
+
+Status: Required later.
+
+Reason:
+
+The video showed that speed improvements only become useful after tuning pressure advance and retraction. Leonardo E3 should not receive final values until the hotend, nozzle, cooling, and bed stability changes are complete.
+
+Current decision:
+
+Track this as a required commissioning step, not a hardware upgrade.
+
+---
+
+### Speed Benchmarks After Hardware Is Stable
+
+Status: Later.
+
+Reason:
+
+The video compared stock and upgraded print times. Leonardo E3 should eventually get its own baseline and tuned benchmark profile, but only after hardware is stable.
+
+Possible benchmark set:
+
+- Benchy quality profile
+- Benchy speed profile
+- Practical functional part
+- Retraction/stringing test
+- Bridging/overhang test
+- Dimensional accuracy test
+
+Current decision:
+
+Do not chase speed yet. First make the machine reliable, predictable, and documented.
+
+---
+
 ## Important Future Goal
 
 ### Quiet Operation / Silent Electronics
@@ -40,12 +147,15 @@ Link: https://www.printables.com/model/178265-ender-3pro-z-axis-height-extender-
 Status: Not important right now.
 
 Reason:
+
 This may be useful later if the direct-drive setup, top-mounted filament sensor, or cable routing reduces usable Z height more than expected.
 
 Current plan:
+
 Do not install this preemptively. First complete the hotend/cooling upgrades, then physically test maximum safe Z travel.
 
 Preferred first solution:
+
 Reduce `position_max` in `printer.cfg` and match the reduced printable height in the dedicated OrcaSlicer profile.
 
 Revisit only if:
@@ -75,6 +185,7 @@ Preferred category if revisited:
 - BTT SKR Mini E3-style board
 
 Current decision:
+
 Keep the Creality 4.2.2 board for now. It is working and is not the current bottleneck. Revisit later as part of a dedicated quiet-operation/electronics modernization phase.
 
 ---
@@ -84,6 +195,7 @@ Keep the Creality 4.2.2 board for now. It is working and is not the current bott
 Status: Future possible upgrade, not soon.
 
 Preferred direction:
+
 A mechanically synchronized dual-Z setup may be the best fit for reliability and simplicity.
 
 Revisit after:
@@ -99,6 +211,7 @@ Revisit after:
 Status: Future possible motion upgrade.
 
 Reason:
+
 Linear rails may improve motion consistency, rigidity, and long-term serviceability if the stock V-wheel motion system becomes a limitation or maintenance annoyance.
 
 Possible areas to consider later:
@@ -108,6 +221,7 @@ Possible areas to consider later:
 - Full motion-system refresh if the printer is already being torn down for a larger rebuild
 
 Current decision:
+
 Do not install during the active hotend/cooling hardware phase. Revisit only after the printer is tuned and reliable enough to know whether the current motion system is actually limiting print quality or maintenance.
 
 ---
@@ -117,6 +231,7 @@ Do not install during the active hotend/cooling hardware phase. Revisit only aft
 Status: Future possible bedslinger weight-reduction idea.
 
 Reason:
+
 A lighter/stiffer bed assembly could potentially reduce moving mass on the Y axis and help with motion performance, ringing, and acceleration limits.
 
 Things to evaluate before doing it:
@@ -128,6 +243,7 @@ Things to evaluate before doing it:
 - Whether it affects bed mesh stability or first-layer consistency
 
 Current decision:
+
 Track as a future idea only. Finish the current bed-stability plan first, including silicone bed mounts and a fresh mesh, before deciding whether a carbon fiber bed is worth pursuing.
 
 ---
@@ -139,6 +255,7 @@ Link: https://www.printables.com/model/970483-camera-mount-ender-3-v3-se
 Status: Future quality-of-life idea; fitment not verified yet.
 
 Reason:
+
 A mounted Logitech camera would improve remote monitoring, print visibility, and OctoEverywhere failure/spaghetti detection.
 
 Things to verify:
@@ -150,6 +267,7 @@ Things to verify:
 - Whether the mount vibrates during printing
 
 Current decision:
+
 Track this as an idea only until the physical fitment is checked on Leonardo E3.
 
 ---
@@ -159,6 +277,7 @@ Track this as an idea only until the physical fitment is checked on Leonardo E3.
 Status: Good future quality-of-life idea.
 
 Reason:
+
 Better lighting will improve webcam visibility and OctoEverywhere failure/spaghetti detection.
 
 Possible presets:
@@ -170,6 +289,7 @@ Possible presets:
 - `IDLE` -> dim/off
 
 Current decision:
+
 Do this later after the mechanical and thermal upgrade path is stable.
 
 ---
@@ -179,6 +299,7 @@ Do this later after the mechanical and thermal upgrade path is stable.
 Status: Future refinement.
 
 Goal:
+
 Keep the Raspberry Pi powered on all the time while allowing the Creality mainboard and printer electronics to be switched off from Mainsail.
 
 Preferred architecture:
@@ -190,7 +311,9 @@ Preferred architecture:
 ```
 
 Important note:
+
 A USB power blocker or data-only USB cable will be required to prevent the Raspberry Pi from backfeeding the mainboard over USB when the mainboard power is off.
 
 Current decision:
+
 Do this later, not during the hotend/cooling upgrade phase.
